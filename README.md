@@ -59,11 +59,13 @@
 
 基础实验完成后是电机控制调速实验（共4学时，相比于原先的8学时有了大幅度的压缩，难度也随之增大，所以请提前写好代码。之前基础实验中部分代码可以复用）。具体内容可以参考「资料下载」中的实验指导书。
 
-> 文 / [Oliver Wu](https://github.com/oliverwu515)
+> 文 / [Oliver Wu](https://github.com/oliverwu515)，2024.7
 
 ## 关于考试
 
-考试内容基本上见于 `materials/2024-嵌入式复习.pptx`，题型大概是四个选择（每题5分）外加8-10个简答和简单计算。给分很高。
+考试题型大概是四个选择（每题5分）外加8-10个简答和简单计算，除选择题外基本上见于 `materials/2024-嵌入式复习.pptx`。给分很高。
+
+> 文 / [Oliver Wu](https://github.com/oliverwu515) 根据 zhou & hyq 的描述整理, 2025.1
 
 ## 学习建议
 
@@ -79,4 +81,4 @@
 - [CH341 串口驱动](https://www.wch-ic.com/downloads/CH341SER_EXE.html)：除了老师一般会发的 Windows 版本外，还含有 MacOS 和 Linux 的版本。
 - [printf 重定向](https://github.com/STMicroelectronics/STM32CubeH7/blob/master/Projects/STM32H743I-EVAL/Examples/UART/UART_Printf/Src/main.c): STM32 官方文档中的重定向方法。
 
-> 文 / [Kowyo](https://github.com/kowyo)
+> 文 / [Kowyo](https://github.com/kowyo)，2024.6
