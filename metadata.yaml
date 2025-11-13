@@ -1,0 +1,64 @@
+ID: "AUTO3024"
+SimilarID: []
+Name: "嵌入式系统"
+CourseProperty:
+  Major:
+    - Year: "2024_2025"
+      Name: [ "自动化" ]
+      Degree: "本"
+  GradeSemesters:
+    - Grade: "大三"
+      Semester: "秋"
+  CourseType: "限选"
+  CourseID: "AUTO3024"
+  CourseName: "嵌入式系统"
+  Credit: "2.0"
+  CourseHour: "32.0"
+  GPAInfluence: "GPA"
+  GroupCourse:
+    Link: ""
+    Desc: ""
+    Name: ""
+    Ids: ["", "", ""]
+  GradeComposition:
+    - Name: "作业"
+      Percentage: "10"
+    - Name: "实验"
+      Percentage: "50"
+    - Name: "期末考试"
+      Percentage: "40"
+  CourseHourComposition:
+    - Name: "理论课"
+      Hour: "20"
+    - Name: "实验课"
+      Hour: "12"
+  Major:
+    - Year: "2025_2026"
+      Name: [ "自动化" ]
+      Degree: "本"
+  GradeSemesters:
+    - Grade: "大三"
+      Semester: "秋"
+  CourseType: "限选"
+  CourseID: "AUTO3024"
+  CourseName: "嵌入式系统"
+  Credit: "2.0"
+  CourseHour: "32.0"
+  GPAInfluence: "GPA"
+  GroupCourse:
+    Link: ""
+    Desc: ""
+    Name: ""
+    Ids: ["", "", ""]
+  GradeComposition:
+    - Name: "作业"
+      Percentage: "10"
+    - Name: "实验"
+      Percentage: "50"
+    - Name: "期末考试"
+      Percentage: "40"
+  CourseHourComposition:
+    - Name: "理论课"
+      Hour: "20"
+    - Name: "实验课"
+      Hour: "12"
