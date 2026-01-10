@@ -15,8 +15,7 @@
 
 - 教材：课程 ppt、实验指导书。
 - 参考资料：
-  - [南工骁鹰嵌入式软件培训](https://www.bilibili.com/video/BV1VT411N7dK)，某学长锐评：真想学 STM32 还是它的含金量高。包含了许多本课程中未包含的内容（CAN等）。
-
+  - [南工骁鹰嵌入式软件培训](https://www.bilibili.com/video/BV1VT411N7dK)，某学长锐评：真想学 STM32 还是它的含金量高。包含了许多本课程中未包含的内容（CAN等）
 
 ## 授课教师
 
@@ -67,6 +66,16 @@
 
 > 文 / [Oliver Wu](https://github.com/oliverwu515) 根据 zhou & hyq 的描述整理, 2025.1
 
+期末考试的题型有：选择题、简答题和问答题。需要计算，允许拿计算器。
+
+考试内容需要背背每节课上最后几分钟用的签到题，一般下一节课就会给对应答案，同时需要背`materials/2024-嵌入式复习.pptx`
+
+同时课上老师会展示几道往年考过的题，让你感受一下考试难度多低
+
+实际该年考试总体给分不高，但难度中规中矩，花一天背一背拿个60、70不是一件困难的事，总分90以上的人数低于5人，同时个人认为刷题库和自践B的题性价比较低
+
+> 文 / [ZhuQi](https://github.com/zhuqi000)，2026.1
+
 ## 学习建议
 
 实验课的内容是 STM32 开发，实验涵盖了：GPIO、外部中断、串口通信、DMA 等功能的上手。开发板的 MCU 型号是 STM32F407ZGT6，软件是 MDK v5 + CubeMX。
@@ -82,3 +91,9 @@
 - [printf 重定向](https://github.com/STMicroelectronics/STM32CubeH7/blob/master/Projects/STM32H743I-EVAL/Examples/UART/UART_Printf/Src/main.c): STM32 官方文档中的重定向方法。
 
 > 文 / [Kowyo](https://github.com/kowyo)，2024.6
+
+理论课基本每节课都有课堂小测，建议把题目记下来方便后面复习，老师会对比纸张和笔迹，判断是不是代写
+
+实验对着指导书一点点做就行了，难度很低，最后的调试实验多看指导书的配置，指导书有的配置没用醒目标识框起来
+
+> 文 / [ZhuQi](https://github.com/zhuqi000)，2026.1
