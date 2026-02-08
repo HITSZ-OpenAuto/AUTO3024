@@ -1,35 +1,71 @@
 # AUTO3024 - 嵌入式系统
 
-
-![考查课](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
-![学分](https://img.shields.io/badge/%E5%AD%A6%E5%88%86-2-moccasin)
-
-![成绩构成](https://img.shields.io/badge/%E6%88%90%E7%BB%A9%E6%9E%84%E6%88%90-gold)
-![作业10%](https://img.shields.io/badge/%E4%BD%9C%E4%B8%9A-10%25-wheat)
+![成绩构成](https://img.shields.io/badge/成绩构成-gold)
+![作业10%](https://img.shields.io/badge/作业-10%25-wheat)
 ![实验50%](https://img.shields.io/badge/实验-50%25-wheat)
-![期末考试40%](https://img.shields.io/badge/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95-40%25-wheat)
+![期末考试40%](https://img.shields.io/badge/期末考试-40%25-wheat)
 
-本课程是将《自动控制实践 B》中嵌入式（STM32）部分独立出来，从22级开始开设。部分考试资料可以去 [自动控制实践 B](https://hoa.moe/docs/junior-spring/auto3002b/) 的页面下载。
-
-## 教材与参考书
-
-- 教材：课程 ppt、实验指导书。
-- 参考资料：
-  - [南工骁鹰嵌入式软件培训](https://www.bilibili.com/video/BV1VT411N7dK)，某学长锐评：真想学 STM32 还是它的含金量高。包含了许多本课程中未包含的内容（CAN等）
+本课程是将《自动控制实践 B》中嵌入式（STM32）部分独立出来，从22级开始开设。
+部分考试资料可以去 [自动控制实践 B](https://hoa.moe/docs/junior-spring/auto3002b/) 的页面下载。
 
 ## 授课教师
 
-- 理论课：黄瑞宁
-  - 这位老师参与过18、19级学生的《自动控制实践 B》教学，彼时他就负责其中嵌入式部分的讲授。后来由于不明原因不再讲授该课程，现在复出。
+- 黄瑞宁
+  - 负责理论课。这位老师参与过 18、19 级学生的《自动控制实践 B》教学，彼时他就负责其中嵌入式部分的讲授。
   - 授课风格：
-    - 同学 1：偶尔考勤，上课细致。
-    - 同学 2：若无基础较难听懂。
+  - 同学 1：偶尔考勤，上课细致。
+  - 同学 2：若无基础较难听懂。
+    > 文 / [Oliver Wu](https://github.com/oliverwu515)，2025-01
 - 王彬彬
-  - 人很好，一直帮忙解决问题，多问老师，和同学多交流可以实验满分。但是基本上大家都没有在安排的实验课内完成，大部分同学都是课下去做完的。最后实验老师会给没做出的同学讲解代码。
+  - 人很好，一直帮忙解决问题，多问老师，和同学多交流可以实验满分。
+  - 但是基本上大家都没有在安排的实验课内完成，大部分同学都是课下去做完的。
+  - 最后实验老师会给没做出的同学讲解代码。
+    > 文 / [Oliver Wu](https://github.com/oliverwu515)，2025-01
 
-> 文 / [Oliver Wu](https://github.com/oliverwu515) 根据 zhou & hyq 的描述整理, 2025.1
+## 教材与线上资源
 
-## 学时安排
+- [南工骁鹰嵌入式软件培训](https://www.bilibili.com/video/BV1VT411N7dK)：某学长锐评：真想学 STM32 还是它的含金量高。包含了许多本课程中未包含的内容（CAN等）。
+- [STM32StepByStep: Step2 Blink LED](https://wiki.stmicroelectronics.cn/stm32mcu/wiki/STM32StepByStep:Step2_Blink_LED)：通过点灯，快速熟悉 IDE 的开发流程。
+- [CH341 串口驱动](https://www.wch-ic.com/downloads/CH341SER_EXE.html)：除了老师一般会发的 Windows 版本外，还含有 MacOS 和 Linux 的版本。
+- [printf 重定向](https://github.com/STMicroelectronics/STM32CubeH7/blob/master/Projects/STM32H743I-EVAL/Examples/UART/UART_Printf/Src/main.c)：STM32 官方文档中的重定向方法。
+
+## 课程内容
+
+理论课基本每节课都有课堂小测，建议把题目记下来方便后面复习，老师会对比纸张和笔迹，判断是不是代写。
+
+## 关于考试
+
+考试题型大概是四个选择（每题 5 分）外加 8-10 个简答和简单计算，除选择题外基本上见于 `materials/2024-嵌入式复习.pptx`。给分很高。
+
+> 文 / [Oliver Wu](https://github.com/oliverwu515)，2025-01
+
+期末考试的题型有：选择题、简答题和问答题。需要计算，允许拿计算器。
+
+考试内容需要背背每节课上最后几分钟用的签到题，一般下一节课就会给对应答案，同时需要背`materials/2024-嵌入式复习.pptx`
+
+同时课上老师会展示几道往年考过的题，让你感受一下考试难度多低
+
+实际该年考试总体给分不高，但难度中规中矩，花一天背一背拿个60、70不是一件困难的事，总分90以上的人数低于5人，同时个人认为刷题库和自践B的题性价比较低
+
+> 文 / [ZhuQi](https://github.com/zhuqi000)，2026-01
+
+## 关于实验
+
+理论课基本每节课都有课堂小测，建议把题目记下来方便后面复习，老师会对比纸张和笔迹，判断是不是代写
+
+实验对着指导书一点点做就行了，难度很低，最后的调试实验多看指导书的配置，指导书有的配置没用醒目标识框起来
+
+> 文 / [kowyo](https://github.com/kowyo)，2024-06
+
+实验课的内容是 STM32 开发，实验涵盖了：GPIO、外部中断、串口通信、DMA 等功能的上手。开发板的 MCU 型号是 STM32F407ZGT6，软件是 MDK v5 + CubeMX。
+
+实验软件所使用的 CubeMX 是 STM32Cube —— 目前 STM32 最主流的开发方式的重要一环。而2019年推出的 STM32CubeIDE，则是这个生态系统的集大成者。
+
+与 MDK 不同的是，STM32CubeIDE 还提供对 MacOS 或者 Linux 操作系统的支持。我非常推荐大家使用 STM32CubeIDE 这个 All in one 的软件（包含了 CubeMX，可以不用单独下载）进行使用。
+
+> 文 / [ZhuQi](https://github.com/zhuqi000)，2026-01
+
+## 课程安排
 
 理论课共20学时，内容详见 osa 网盘中的 ppt。
 
@@ -57,43 +93,3 @@
 {{% /details %}}
 
 基础实验完成后是电机控制调速实验（共4学时，相比于原先的8学时有了大幅度的压缩，难度也随之增大，所以请提前写好代码。之前基础实验中部分代码可以复用）。具体内容可以参考「资料下载」中的实验指导书。
-
-> 文 / [Oliver Wu](https://github.com/oliverwu515)，2024.7
-
-## 关于考试
-
-考试题型大概是四个选择（每题5分）外加8-10个简答和简单计算，除选择题外基本上见于 `materials/2024-嵌入式复习.pptx`。给分很高。
-
-> 文 / [Oliver Wu](https://github.com/oliverwu515) 根据 zhou & hyq 的描述整理, 2025.1
-
-期末考试的题型有：选择题、简答题和问答题。需要计算，允许拿计算器。
-
-考试内容需要背背每节课上最后几分钟用的签到题，一般下一节课就会给对应答案，同时需要背`materials/2024-嵌入式复习.pptx`
-
-同时课上老师会展示几道往年考过的题，让你感受一下考试难度多低
-
-实际该年考试总体给分不高，但难度中规中矩，花一天背一背拿个60、70不是一件困难的事，总分90以上的人数低于5人，同时个人认为刷题库和自践B的题性价比较低
-
-> 文 / [ZhuQi](https://github.com/zhuqi000)，2026.1
-
-## 学习建议
-
-实验课的内容是 STM32 开发，实验涵盖了：GPIO、外部中断、串口通信、DMA 等功能的上手。开发板的 MCU 型号是 STM32F407ZGT6，软件是 MDK v5 + CubeMX。
-
-实验软件所使用的 CubeMX 是 STM32Cube —— 目前 STM32 最主流的开发方式的重要一环。而2019年推出的 STM32CubeIDE，则是这个生态系统的集大成者。
-
-与 MDK 不同的是，STM32CubeIDE 还提供对 MacOS 或者 Linux 操作系统的支持。我非常推荐大家使用 STM32CubeIDE 这个 All in one 的软件（包含了 CubeMX，可以不用单独下载）进行使用。
-
-以下是一些有用的链接：
-
-- [STM32StepByStep:Step2 Blink LED](https://wiki.stmicroelectronics.cn/stm32mcu/wiki/STM32StepByStep:Step2_Blink_LED)：通过点灯，快速熟悉 IDE 的开发流程。
-- [CH341 串口驱动](https://www.wch-ic.com/downloads/CH341SER_EXE.html)：除了老师一般会发的 Windows 版本外，还含有 MacOS 和 Linux 的版本。
-- [printf 重定向](https://github.com/STMicroelectronics/STM32CubeH7/blob/master/Projects/STM32H743I-EVAL/Examples/UART/UART_Printf/Src/main.c): STM32 官方文档中的重定向方法。
-
-> 文 / [Kowyo](https://github.com/kowyo)，2024.6
-
-理论课基本每节课都有课堂小测，建议把题目记下来方便后面复习，老师会对比纸张和笔迹，判断是不是代写
-
-实验对着指导书一点点做就行了，难度很低，最后的调试实验多看指导书的配置，指导书有的配置没用醒目标识框起来
-
-> 文 / [ZhuQi](https://github.com/zhuqi000)，2026.1
