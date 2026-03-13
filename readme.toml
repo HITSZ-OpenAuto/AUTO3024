@@ -1,36 +1,35 @@
 course_name = "嵌入式系统"
-repo_type = "normal"
 course_code = "AUTO3024"
-
+repo_type = "normal"
 description = """
 本课程是将《自动控制实践 B》中嵌入式（STM32）部分独立出来，从22级开始开设。
 部分考试资料可以去 [自动控制实践 B](https://hoa.moe/docs/junior-spring/auto3002b/) 的页面下载。
 """
 
-[[lecturers]]
+[lecturers]
+
+[[lecturers.items]]
 name = "黄瑞宁"
 
-[[lecturers.reviews]]
+[[lecturers.items.reviews]]
 content = """
 负责理论课。这位老师参与过 18、19 级学生的《自动控制实践 B》教学，彼时他就负责其中嵌入式部分的讲授。
 授课风格：
-
-- 同学 1：偶尔考勤，上课细致。
-- 同学 2：若无基础较难听懂。
+同学 1：偶尔考勤，上课细致。
+同学 2：若无基础较难听懂。
 """
 author = { name = "Oliver Wu", link = "https://github.com/oliverwu515", date = "2025-01" }
 
-[[lecturers]]
+[[lecturers.items]]
 name = "王彬彬"
 
-[[lecturers.reviews]]
+[[lecturers.items.reviews]]
 content = """
 人很好，一直帮忙解决问题，多问老师，和同学多交流可以实验满分。
 但是基本上大家都没有在安排的实验课内完成，大部分同学都是课下去做完的。
 最后实验老师会给没做出的同学讲解代码。
 """
 author = { name = "Oliver Wu", link = "https://github.com/oliverwu515", date = "2025-01" }
-
 
 [[sections]]
 title = "教材与线上资源"
