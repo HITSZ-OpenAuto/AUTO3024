@@ -1,4 +1,0 @@
-category: 限选
-module: 实践课程体系
-semester: 第三学年秋季
-name: 嵌入式系统
