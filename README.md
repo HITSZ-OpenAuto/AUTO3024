@@ -1,11 +1,5 @@
 # AUTO3024 - 嵌入式系统
 <!-- TOML-META: repo_type="normal" -->
-<!-- TOML-BADGES: source="grades_summary" -->
-
-![成绩构成](https://img.shields.io/badge/成绩构成-gold)
-![作业10%](https://img.shields.io/badge/作业-10%25-wheat)
-![实验50%](https://img.shields.io/badge/实验-50%25-wheat)
-![期末考试40%](https://img.shields.io/badge/期末考试-40%25-wheat)
 
 本课程是将《自动控制实践 B》中嵌入式（STM32）部分独立出来，从22级开始开设。
 部分考试资料可以去 [自动控制实践 B](https://hoa.moe/docs/junior-spring/auto3002b/) 的页面下载。
